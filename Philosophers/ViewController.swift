@@ -9,25 +9,60 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
-    @IBOutlet weak var image1: NSImageView!
+    //MARK: Properties
+    
+    @IBOutlet weak var phil1Image: NSImageView!
+    
+    @IBOutlet weak var phil2Image: NSImageView!
+    
+    @IBOutlet weak var phil3Image: NSImageView!
+    
+    @IBOutlet weak var phil4Image: NSImageView!
+    
+    @IBOutlet weak var phil5Image: NSImageView!
+    
+    @IBOutlet weak var startButton: NSButton!
+    
+    @IBOutlet weak var stopButton: NSButton!
+    
+    @IBOutlet weak var deadlockButton: NSButton!
+    
+    var philosophers = [Philosopher]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        tryfunc()
+        philosophers.append(Philosopher(face: phil1Image))
+        philosophers.append(Philosopher(face: phil2Image))
+        philosophers.append(Philosopher(face: phil3Image))
+        philosophers.append(Philosopher(face: phil4Image))
+        philosophers.append(Philosopher(face: phil5Image))
+        
     }
 
-    @IBAction func button(_ sender: NSButton) {
-        image1.image = NSImage(imageLiteralResourceName: "eatingImage")
+    //MARK: Actions
+    
+    @IBAction func start(_ sender: NSButton) {
+    }
+    @IBAction func stop(_ sender: Any) {
+    }
+    
+    @IBAction func deadlock(_ sender: Any) {
     }
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
     }
-    func tryfunc(){
+    //MARK: Private Methods
+    
+    
+    func think(phil: Philosopher){
+        
     }
-
+    func eat(phil: Philosopher){
+        
+    }
 }
 
