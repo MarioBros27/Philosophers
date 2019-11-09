@@ -711,14 +711,24 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21Y-YW-YAG">
-                                <rect key="frame" x="30" y="395" width="118" height="118"/>
+                                <rect key="frame" x="38" y="353" width="118" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="thinkingImage" id="tf5-J7-jKt"/>
                             </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1GI-dZ-s3w">
-                                <rect key="frame" x="474" y="100" width="118" height="118"/>
+                                <rect key="frame" x="471" y="113" width="118" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="thinkingImage" id="dqw-7x-iJV"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LmA-aH-pBI">
+                                <rect key="frame" x="869" y="232" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="waitingImage" id="i4s-Mn-a9v"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJD-Kg-Opx">
+                                <rect key="frame" x="869" y="92" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="eatingImage" id="jAN-2N-Ghj"/>
                             </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-5b-Cra">
                                 <rect key="frame" x="64" y="92" width="118" height="118"/>
@@ -726,7 +736,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="thinkingImage" id="k5d-RK-V5I"/>
                             </imageView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pWU-WJ-TMD">
-                                <rect key="frame" x="864" y="507" width="70" height="32"/>
+                                <rect key="frame" x="863" y="584" width="70" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="azJ-BF-4gn">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -752,7 +762,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="thinkingImage" id="74r-e9-6tK"/>
                             </imageView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Me3-9X-pIq">
-                                <rect key="frame" x="864" y="388" width="69" height="32"/>
+                                <rect key="frame" x="863" y="536" width="69" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Stop" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UfV-ZJ-kYK">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -763,7 +773,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wU3-fz-67t">
-                                <rect key="frame" x="844" y="229" width="108" height="32"/>
+                                <rect key="frame" x="845" y="496" width="108" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Deadlock" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6zN-Sp-joO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -773,10 +783,102 @@
                                     <action selector="deadlock:" target="XfG-lQ-9wD" id="45a-Ui-2Hf"/>
                                 </connections>
                             </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="teQ-9q-Cxe">
+                                <rect key="frame" x="64" y="309" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="Utg-1k-xSL"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5w-sk-0QE">
+                                <rect key="frame" x="171" y="100" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="TVz-ob-Bg8"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFZ-Dd-TYs">
+                                <rect key="frame" x="540" y="191" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="JWW-yN-OqJ"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xk1-Ev-HGo">
+                                <rect key="frame" x="523" y="482" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="qpZ-np-116"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lOB-Tf-ALG">
+                                <rect key="frame" x="230" y="557" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="KTm-Wr-c9e"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXN-qM-tjM">
+                                <rect key="frame" x="64" y="458" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="9GG-me-zLW"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tkG-cH-EoA">
+                                <rect key="frame" x="64" y="180" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="T4w-Yw-GVm"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E5N-tV-EEQ">
+                                <rect key="frame" x="439" y="126" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="ZHi-tr-8hQ"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFa-IM-Ygw">
+                                <rect key="frame" x="523" y="335" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="agQ-3Y-cmA"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gt9-xo-iVS">
+                                <rect key="frame" x="376" y="557" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="forkImage" id="R5n-iu-nWH"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qmP-O0-y1B">
+                                <rect key="frame" x="1008" y="392" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Thinking" id="JGL-yx-Wqw">
+                                    <font key="font" metaFont="system" size="26"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-70-455">
+                                <rect key="frame" x="1008" y="257" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Waiting" id="Bcn-xa-WDi">
+                                    <font key="font" metaFont="system" size="26"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FEu-L1-YYI">
+                                <rect key="frame" x="1008" y="119" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Eating" id="fq1-2v-z9K">
+                                    <font key="font" metaFont="system" size="26"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YmG-Fd-KvL">
+                                <rect key="frame" x="869" y="358" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="thinkingImage" id="rJV-Rx-6LN"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="deadlockButton" destination="wU3-fz-67t" id="OZB-Kb-Ybs"/>
+                        <outlet property="fork1Image" destination="teQ-9q-Cxe" id="bZS-r1-mbX"/>
+                        <outlet property="fork2Image" destination="Y5w-sk-0QE" id="lCg-UQ-M8d"/>
+                        <outlet property="fork3Image" destination="AFZ-Dd-TYs" id="rnI-yj-hey"/>
+                        <outlet property="fork4Image" destination="xk1-Ev-HGo" id="Ita-fY-7Js"/>
+                        <outlet property="fork5Image" destination="lOB-Tf-ALG" id="K2C-9E-BiC"/>
+                        <outlet property="leftFork1Image" destination="oXN-qM-tjM" id="pbw-fi-b2E"/>
+                        <outlet property="leftFork2Image" destination="tkG-cH-EoA" id="VZb-c7-VJi"/>
+                        <outlet property="leftFork3Image" destination="E5N-tV-EEQ" id="utb-5e-yp9"/>
+                        <outlet property="leftFork4Image" destination="mFa-IM-Ygw" id="bu0-3d-dPS"/>
+                        <outlet property="leftFork5Image" destination="Gt9-xo-iVS" id="ruT-Aa-mrK"/>
                         <outlet property="phil1Image" destination="21Y-YW-YAG" id="isI-TO-VVP"/>
                         <outlet property="phil2Image" destination="Ljv-5b-Cra" id="1AB-2A-HeN"/>
                         <outlet property="phil3Image" destination="1GI-dZ-s3w" id="mGG-NR-eHr"/>
@@ -792,7 +894,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="eatingImage" width="160" height="160"/>
+        <image name="forkImage" width="42" height="159"/>
         <image name="tableImage" width="369" height="370"/>
         <image name="thinkingImage" width="160" height="160"/>
+        <image name="waitingImage" width="160" height="160"/>
     </resources>
 </document>

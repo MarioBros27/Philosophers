@@ -11,19 +11,24 @@ import Cocoa
 
 class Philosopher{
     //MARK: Properties
-   // var rightFork: NSImageView?
-    //var leftFork: NSImageView
-    var myForkAvailable: Bool
+    var myFork: NSImageView
+    var otherFork: NSImageView
+    var usingOtherFork: NSImageView
+    var isEating: Bool
     var face: NSImageView
     var thread: DispatchQueue?
     var id: Int
     //MARK: Initialization
-    init(face: NSImageView, id: Int){
+    init(face: NSImageView, id: Int, myFork: NSImageView, otherFork: NSImageView, usingOtherFork: NSImageView){
         //rightFork.self = rightF
         //leftFork.self = leftF
-        myForkAvailable = true
+        isEating = false
         self.face = face
         self.id = id
+        self.myFork = myFork
+        self.otherFork = otherFork
+        self.usingOtherFork = usingOtherFork
+        
     }
     public func setThread(thread: DispatchQueue){
         self.thread = thread
